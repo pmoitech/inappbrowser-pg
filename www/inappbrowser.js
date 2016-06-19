@@ -25,6 +25,7 @@ var modulemapper = require('cordova/modulemapper');
 var urlutil = require('cordova/urlutil');
 
 function InAppBrowser() {
+   alert('inapp');
    this.channels = {
         'loadstart': channel.create('loadstart'),
         'loadstop' : channel.create('loadstop'),
