@@ -326,7 +326,7 @@ public class InAppBrowser extends CordovaPlugin {
     /**
      * Closes the dialog
      */
-     /*
+  
     public void closeDialog() {
         final WebView childView = this.inAppWebView;
         // The JS protects against multiple calls, so this should happen only when
@@ -360,10 +360,7 @@ public class InAppBrowser extends CordovaPlugin {
             Log.d(LOG_TAG, "Should never happen");
         }
     }
-    */
     
-    public void closeDialog() { return; }
-
     /**
      * Checks to see if it is possible to go back one page in history, then does so.
      */
